@@ -1,0 +1,21 @@
+
+
+#create/ a file
+nano  file name
+
+#check git status to see what has chaged in the file
+git status
+#or
+git diff file name
+
+#add the file into the next commit
+git add file namme
+
+##check git status to see what has chaged in the file
+git status
+
+#commit the changes
+git commit -m "updatedreadmefile, initial commit"
+
+#Push the chage to github server
+git push origin main
